@@ -93,7 +93,7 @@ else:
 
 #check the character is digit or not 14
 a = "abc123"
-aa = a.isdigit()
+aa = a.isdigit()  
 print(aa)	
 b = "123"
 s = b.isdigit()
