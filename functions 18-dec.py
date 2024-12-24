@@ -105,8 +105,7 @@ print("reverseing the string :",reverse_string("hello"))
 
 # 12.Write a function `sort_dict_by_value` that takes a dictionary as input and returns a list of tuples sorted by the dictionary values in ascending order.
 data = {'student1': ('bhanu', 10), 'student4': ('uma', 12),
-		'student3': ('suma', 11), 'student2': ('ravi', 11),
-		'student5': ('gayatri', 9)}
+		'student3': ('suma', 11), 'student2': ('ravi', 11)}
 for i in sorted(data.items()):
 	print(i, end=" ")
 print()
